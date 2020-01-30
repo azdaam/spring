@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Engines</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Game Engine</th>
+        <th>Author</th>
+
+    </tr>
+    <tr th:each="engine : ${engines}">
+        <td th:text="${engine.id}">123</td>
+        <td th:text="${engine.gameEngine}">A great pretender</td>
+        <td th:text="${engine.author}">A great pretender</td>
+
+
+
+
+    </tr>
+</table>
+<h1></h1>
+<a href="/games">Games</a>
+<a href="/engines">Engines</a>
+<a href="/publishers">Publisher</a>
+<a href="/shows">Show</a>
+
+</body>
+</html>

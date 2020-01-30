@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Publisher</h1>
+<table>
+    <tr>
+        <th>ID | </th>
+        <th>Name | </th>
+
+    </tr>
+    <tr th:each="publisher : ${publishers}">
+        <td th:text="${publisher.id}">123</td>
+        <td th:text="${publisher.name}">A great pretender</td>
+
+
+
+
+    </tr>
+</table>
+
+<a href="/games">Games</a>
+<a href="/engines">Engines</a>
+<a href="/publishers">Publisher</a>
+<a href="/shows">Show</a>
+
+
+</body>
+</html>

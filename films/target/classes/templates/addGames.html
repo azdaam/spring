@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add games</title>
+
+</head>
+
+<h1>Add Games</h1>
+<!--/*@thymesVar id="game" type="aj"*/-->
+<form action="=#" th:action="@{/games.html}" th:object="${game}" method="post">
+
+    <div>
+        <p>Game: <input type="text" th:field="*{game.id}}"> </p>
+    </div>
+    <div>
+        <p>Genres: <input type="text" th:field="*{game.gameName}"> </p>
+    </div>
+    <div>
+        <p>series: <input type="text" th:field="*{game.genres}"> </p>
+    </div>
+    <div>
+        <p>platform: <input type="text" th:field="*{game.series}"> </p>
+    </div>
+     <div>
+        <p>engine: <input type="text" th:field="*{game.platform}"> </p>
+    </div>
+    <div>
+        <p>platform: <input type="text" th:field="*{game.publisher.name}"> </p>
+    </div>
+    <div>
+        <p>platform: <input type="text" th:field="*{game.engine.gameEngine}"> </p>
+    </div>
+
+
+    <input type="submit" value="Submit"/> <input type="reset" value="Reset"/>
+
+</form>
+
+<a href="/games">Games</a>
+<a href="/engines">Engines</a>
+<a href="/publishers">Publisher</a>
+<a href="/shows">Show</a>
+
+</html>

@@ -1,0 +1,16 @@
+F:\films\src\main\java\com\example\films\model\Scenario.java
+F:\films\src\main\java\com\example\films\model\Actor.java
+F:\films\src\main\java\com\example\films\model\Film.java
+F:\films\src\main\java\com\example\films\repositories\DirectorRepository.java
+F:\films\src\main\java\com\example\films\controllers\DirectorController.java
+F:\films\src\main\java\com\example\films\controllers\FilmController.java
+F:\films\src\main\java\com\example\films\model\Director.java
+F:\films\src\main\java\com\example\films\model\Publisher.java
+F:\films\src\main\java\com\example\films\repositories\FilmRepository.java
+F:\films\src\main\java\com\example\films\repositories\PublisherRepository.java
+F:\films\src\main\java\com\example\films\repositories\ScenarioRepository.java
+F:\films\src\main\java\com\example\films\repositories\ActorRepository.java
+F:\films\src\main\java\com\example\films\FilmsApplication.java
+F:\films\src\main\java\com\example\films\controllers\ScenarioController.java
+F:\films\src\main\java\com\example\films\controllers\ActorController.java
+F:\films\src\main\java\com\example\films\tools\DBInflater.java
