@@ -36,7 +36,10 @@ public class AddGameController {
 
 
     @GetMapping("/addGames")
-    public String clickAddGame(Game game){ return "addGames"; }
+    public String clickAddGame(Model model){
+        model.addAttribute("game", new Game());
+        return "addGames";
+    }
 
     @PostMapping("/addGames")
     public String formAddGame(Game game){
